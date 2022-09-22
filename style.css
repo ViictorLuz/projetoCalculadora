@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg,black, rgb(180, 20, 220));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+#resultado {
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.botaodiv {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    background-color: rgb(219, 209, 71);
+    cursor: pointer;
+    color: white;
+}
+
+.botaodiv:hover {
+    background-color: yellow;
+}
+
+.botaomulti {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    background-color: rgb(175, 245, 70);
+    cursor: pointer;
+    color: white;
+}
+
+.botaomulti:hover {
+    background-color: green;
+}
+
+.botaomenos {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    background-color: rgb(243, 118, 187);
+    cursor: pointer;
+    color: white;
+}
+
+.botaomenos:hover {
+    background-color: rgb(255, 0, 140);
+}
+
+.botaomais {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    background-color: rgb(111, 202, 245);
+    cursor: pointer;
+    color: white;
+}
+
+.botaomais:hover {
+    background-color: rgb(0, 68, 255);
+}
+
+.botaoigual {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    background-color: rgb(168, 63, 168);
+    cursor: pointer;
+    color: white;
+}
+
+.botaoigual:hover {
+    background-color: rgb(90, 1, 90);
+}
